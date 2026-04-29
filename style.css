@@ -301,3 +301,23 @@ figcaption {
     font-size: 18px;
   }
 }
+.presentation-section {
+  background-color: #f3e8ff;   /* açık mor ton */
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 15px;
+}
+
+.presentation-section h2 {
+  color: #7c3aed;
+  margin-bottom: 10px;
+}
+
+.presentation-section a {
+  color: blue;
+  text-decoration: none;
+}
+
+.presentation-section a:hover {
+  text-decoration: underline;
+}
