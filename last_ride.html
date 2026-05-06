@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Last Ride</title>
+  <link rel="stylesheet" href="last_ride.css">
+</head>
+<body>
+  <main class="page lastride-bg">
+    <section class="box">
+      <h1>Last Ride</h1>
+      <p>It is late at night in New York City.</p>
+      <p>The subway is running less frequently, and you do not know when the next train will come.</p>
+      <p>You enter the station and notice a man standing alone inside. He is watching you. No one else is around.</p>
+      <p>You are exhausted. You just want to get home.</p>
+      <p>What do you do?</p>
+
+      <div class="choices">
+        <a class="button" href="station.html">Go inside the station</a>
+        <a class="button" href="outside.html">Trust your instinct and leave</a>
+      </div>
+
+      <a class="small-link" href="#about">Project description and story map</a>
+
+      <section id="about">
+        <h2>Project Description</h2>
+        <p>My interactive story is called <strong>Last Ride</strong>. It takes place late at night in a New York City subway station. The main character is trying to get home, but the station feels unsafe because there is a strange man inside and no one else around.</p>
+        <p>The central dilemma is whether the user should prioritize convenience or safety. The story asks the user to make choices based on exhaustion, fear, instinct, and situational awareness. Some choices may seem easier in the moment, like ignoring discomfort or waiting for the train, but they lead to unsafe outcomes. Safer choices require the user to trust their instincts and choose a different way home.</p>
+        <p>The story reveals a psychological and sociological truth about urban life: people often ignore danger because they are tired, distracted, or trying to act normal in public spaces. In a city like New York, survival sometimes depends on noticing your surroundings and listening to your intuition.</p>
+
+        <h2>Story Map</h2>
+        <pre class="story-map">START: Late-night subway station
+
+1) Go inside station
+   -> Empty platform
+      A) Ignore him + look at phone
+         -> Unsafe Ending
+      B) Move away
+         -> Train arrives
+            -> Man enters same train car
+               A) Stay and ignore him
+                  -> Unsafe Ending
+               B) Get off at next stop
+                  -> Empty platform
+                     A) Wait for another train
+                        -> Unsafe Ending
+                     B) Leave + call Uber
+                        -> Safe Ending
+
+2) Trust instinct + leave station
+   -> Outside street
+      A) Walk home
+         -> Unsafe Ending
+      B) Call Uber
+         -> Safe Ending</pre>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
